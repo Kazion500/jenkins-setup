@@ -1,0 +1,16 @@
+{
+  "name": "deploy-bunapp-vm",
+  "module": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun main",
+    "dev":"bun --watch main.ts"
+  
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
